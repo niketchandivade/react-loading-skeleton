@@ -38,7 +38,7 @@ export const InlineWithText: React.FC = () => (
 
 export const BlockWrapper: React.FC = () => (
   <SideBySide>
-    <Skeleton count={5} wrapper={Box} />
+    <Skeleton count={4} wrapper={Box} />
     <div>
       <Box>A</Box>
       <Box>B</Box>
@@ -404,8 +404,8 @@ export const RegressionTest133 = () => (
       <a href="https://github.com/dvtng/react-loading-skeleton/pull/133">
         #133
       </a>
-      , in which the pseudoelement had the wrong vertical position. The animated
-      highlight should cover the entire square.
+      , where the pseudo-element was incorrectly positioned vertically. The
+      animated highlight should cover the entire square.
     </p>
     <div style={{ display: 'flex' }}>
       <Skeleton
